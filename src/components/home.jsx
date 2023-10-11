@@ -51,10 +51,14 @@ try{
 
    
     }
+    else{
+      navigate('/auth');
+      return
+    }
 
-      setTimeout(()=>{
-        navigate('/auth');
-       },2000)
+    setTimeout(()=>{
+      navigate('/auth');
+     },2000)
   }
   
 
